@@ -31,4 +31,4 @@ We may update this Privacy Policy from time to time. We will notify you of any c
 
 **6. Contact Us**
 
-If you have any questions about this Privacy Policy, please contact us at: bkid job {at] gmail [dot} com
+If you have any questions about this Privacy Policy, please contact us via GitHub Issues: https://github.com/bkidjob/key-expander-pro/issues
