@@ -1,34 +1,32 @@
-# Privacy Policy for William's KeyStroke Expander
+# Privacy Policy for KeyStroke Expander
 
-Effective Date: 30/5/2025
+## Data Collection
 
-Thank you for using William's KeyStroke Expander ("the Extension"). This privacy policy describes how your information is handled by the Extension.
+KeyStroke Expander does not collect any personal information or user data. All shortcuts, folders, and settings are stored locally in your browser using Chrome's storage API and are not transmitted to any external servers.
 
-**1. Information We Handle**
+## Data Storage
 
-The Extension is designed to operate entirely on your local computer.
+The extension stores the following data locally in your browser:
+- Folders and their settings (name, delimiters)
+- Shortcuts and their expansions
+- User preferences for the dashboard interface
 
-*   **User-Generated Content:** You can create and store text shortcuts, labels, expansion text, and folder configurations (including custom delimiters). This data is stored exclusively on your local computer using Chrome's built-in storage (`chrome.storage.local`). This data is necessary for the core functionality of the Extension and is never transmitted to us or any third party.
-*   **User Activity (Keystroke Monitoring):** To provide its text expansion functionality, the Extension monitors your keystrokes when you type in input fields or content-editable areas on web pages. This monitoring is done solely to detect your defined shortcut triggers. The keystroke data is processed in real-time, locally within your browser. It is not stored permanently (only in a temporary buffer for matching purposes) and is never transmitted to us or any third party.
+This data is only accessible by the extension itself and is not shared with any third parties.
 
-**2. Permissions Used by the Extension**
+## Permissions
 
-*   `storage`: This permission is used to save your shortcuts and folder settings locally on your device, so they persist across browser sessions.
-*   `tabs`: This permission is used exclusively to manage the Extension's dashboard page (`dashboard.html`). It allows the Extension to open, focus, or close its own dashboard tab when you interact with the extension icon. It is NOT used to access your browsing history or the content of other tabs.
-*   `content_scripts` (on `<all_urls>`): This allows the Extension to monitor your input on web pages to detect and perform text expansions as you type.
+The extension requires the following permissions:
+- **storage**: To save your shortcuts and folders locally
+- **tabs**: To manage the dashboard tab
 
-**3. Data Sharing**
+## Third-Party Services
 
-We do not collect any personal data that is transmitted to us, and therefore, we do not share any user data with third parties. All data created or processed by the Extension remains on your local computer.
+KeyStroke Expander does not use any third-party services or analytics.
 
-**4. Data Security**
+## Updates to This Policy
 
-Your shortcut data is stored locally on your device through Chrome's storage mechanisms. The security of this data relies on the security of your Chrome browser and your computer.
+This Privacy Policy may be updated from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.
 
-**5. Changes to This Privacy Policy**
+## Contact
 
-We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.
-
-**6. Contact Us**
-
-If you have any questions about this Privacy Policy, please contact us via GitHub Issues: https://github.com/bkidjob/key-expander-pro/issues
+If you have any questions about this Privacy Policy, please contact us at: https://github.com/bkidjob/key-expander-pro/issues
